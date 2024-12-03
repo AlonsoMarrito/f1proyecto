@@ -14,7 +14,7 @@
 </template>
 
 <script setup>
-import { onMounted, ref } from 'vue'
+import { onMounted, ref } from 'vue-router'
 
 // Variable reactiva para el reproductor
 const player = ref(null)
